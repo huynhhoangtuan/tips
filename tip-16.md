@@ -69,7 +69,7 @@ Alice can assign witness-permission to the administrator. Since the administrato
  
   Permission {
     enum PermissionType {
-      Owner = 0;
+      Owner = 3;
       Witness = 1;
       Active = 2;
     }

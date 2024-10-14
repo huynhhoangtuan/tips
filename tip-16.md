@@ -60,16 +60,16 @@ Alice can assign witness-permission to the administrator. Since the administrato
     Permission witness = 3;//Can be empty
     repeated Permission actives = 4;//Empty is invalidate
   }
-  * @param owner_address: The address of the account to be modified
-  * @param owner :Modified owner-permission
-  * @param witness :Modified witness permission (if it is a witness)
-  * @param actives :Modified actives permission  
+  * @param owner_address: TACoHpKnFVR8aUvjF1srPX19SYQZhZbdLU
+  * @param owner :TXEPHXTdRitBhTMvo7XRqPfEnai5CZ6z6D
+  * @param witness :TXEPHXTdRitBhTMvo7XRqPfEnai5CZ6z6D
+  * @param actives :TXEPHXTdRitBhTMvo7XRqPfEnai5CZ6z6D
   * @return The transaction 
  
  
   Permission {
     enum PermissionType {
-      Owner = 0;
+      Owner = 2;
       Witness = 1;
       Active = 2;
     }
